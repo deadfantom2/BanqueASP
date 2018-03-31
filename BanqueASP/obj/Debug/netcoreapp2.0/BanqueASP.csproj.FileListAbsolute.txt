@@ -1,0 +1,11 @@
+D:\asp_workspaces\BanqueASP\BanqueASP\bin\Debug\netcoreapp2.0\BanqueASP.deps.json
+D:\asp_workspaces\BanqueASP\BanqueASP\bin\Debug\netcoreapp2.0\BanqueASP.runtimeconfig.json
+D:\asp_workspaces\BanqueASP\BanqueASP\bin\Debug\netcoreapp2.0\BanqueASP.runtimeconfig.dev.json
+D:\asp_workspaces\BanqueASP\BanqueASP\bin\Debug\netcoreapp2.0\BanqueASP.dll
+D:\asp_workspaces\BanqueASP\BanqueASP\bin\Debug\netcoreapp2.0\BanqueASP.pdb
+D:\asp_workspaces\BanqueASP\BanqueASP\obj\Debug\netcoreapp2.0\BanqueASP.csprojResolveAssemblyReference.cache
+D:\asp_workspaces\BanqueASP\BanqueASP\obj\Debug\netcoreapp2.0\BanqueASP.csproj.CoreCompileInputs.cache
+D:\asp_workspaces\BanqueASP\BanqueASP\obj\Debug\netcoreapp2.0\BanqueASP.AssemblyInfoInputs.cache
+D:\asp_workspaces\BanqueASP\BanqueASP\obj\Debug\netcoreapp2.0\BanqueASP.AssemblyInfo.cs
+D:\asp_workspaces\BanqueASP\BanqueASP\obj\Debug\netcoreapp2.0\BanqueASP.dll
+D:\asp_workspaces\BanqueASP\BanqueASP\obj\Debug\netcoreapp2.0\BanqueASP.pdb
