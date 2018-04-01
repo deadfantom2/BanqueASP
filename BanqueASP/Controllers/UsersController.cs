@@ -36,31 +36,31 @@ namespace BanqueASP.Controllers
             return Ok(user);
         }
 
-        [Authorize]
-        [HttpGet("me")]
-        public ActionResult Get()
-        {
-            return Ok(GetSecureUser());
-        }
+        //[Authorize]
+        //[HttpGet("me")]
+        //public ActionResult Get()
+        //{
+        //    return Ok(GetSecureUser());
+        //}
 
-        [Authorize]
-        [HttpPost("me")]
-        public ActionResult Post([FromBody] EditProfileData profileData)
-        {
-            var user = GetSecureUser();
+        //[Authorize]
+        //[HttpPost("me")]
+        //public ActionResult Post([FromBody] EditProfileData profileData)
+        //{
+        //    var user = GetSecureUser();
 
-            user.FirstName = profileData.FirstName ?? user.FirstName;
-            user.LastName = profileData.LastName ?? user.LastName;
+        //    user.FirstName = profileData.FirstName ?? user.FirstName;
+        //    user.LastName = profileData.LastName ?? user.LastName;
 
-            context.SaveChanges();
+        //    context.SaveChanges();
 
-            return Ok(user);
-        }
+        //    return Ok(user);
+        //}
 
-        Models.User GetSecureUser()
-        {
-            var id = HttpContext.User.Claims.First().Value;
-            return context.Users.SingleOrDefault(u => u.Id == id);
-        }
+        //Models.User GetSecureUser()
+        //{
+        //    var id = HttpContext.User.Claims.First().Value;
+        //    return context.Users.SingleOrDefault(u => u.Id == id);
+        //}
     }
 }

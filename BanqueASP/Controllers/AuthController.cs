@@ -33,6 +33,8 @@ namespace BanqueASP.Controllers
         {
             this.context = context;
         }
+
+        //POST LOGIN
         [HttpPost("login")]
         public ActionResult Login([FromBody] LoginData loginData)
         {
@@ -44,6 +46,7 @@ namespace BanqueASP.Controllers
             return Ok(CreateJwtPacket(user));
         }
 
+        //POST REGISTER
         [HttpPost("register")]
         public JwtPacket Register([FromBody]Models.User user)
         {
@@ -53,6 +56,7 @@ namespace BanqueASP.Controllers
             return CreateJwtPacket(user);
         }
 
+        //JWT TOKEN 
         JwtPacket CreateJwtPacket(Models.User user)
         {
             var signingKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("this is the secret phrase"));

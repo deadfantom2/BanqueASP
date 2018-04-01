@@ -85,8 +85,6 @@ namespace BanqueASP
         //data seed
         public void SeedData(ApiContext context)
         {
-            context.Messages.Add(new Models.Message {Owner = "John", Text = "hello" });
-            context.Messages.Add(new Models.Message { Owner = "Tim", Text = "Hi" });
             context.Users.Add(new Models.User { Email = "frfr", FirstName = "frfr", Password = "frfr", Id = "1" });
 
             context.SaveChanges();
